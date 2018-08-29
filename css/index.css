@@ -21,6 +21,7 @@ a{
     background: rgb(51,51,51);
     /*background: yellow;*/
 }
+
 #box .center .left{
     float: left;
     width:600px;
@@ -69,6 +70,9 @@ a{
     right:0;
     top:14px;
     background:#424242;
+}
+#box .center a:hover{
+    color:white;
 }
 #box .center .right .cart{
     float: left;
@@ -127,7 +131,7 @@ a{
     margin:0 auto;
     position:relative;
 }
-#nav> a{
+#nav> .mmm_a{
     display:block;
     width: 55px;
     height:55px;
@@ -135,6 +139,15 @@ a{
     position: absolute;
     left:0;
     top:22px;
+}
+#nav >.dd_a{
+    display:block;
+    width: 155px;
+    height:100px;
+    position: absolute;
+    left:65px;
+    top:18px;
+    /*line-height: 100px;*/
 }
 #nav .menu{
     width:530px;
@@ -621,9 +634,67 @@ a{
 #m_show .left{
     width:234px;
     height:250px;
-    background: pink;
+    background: rgb(241,231,231);
     float:left;
+    position: relative;
+    border-top:1px solid red;
 }
+#m_show .left .cc_top{
+    width:234px;
+    height:30px;
+    /*background: yellow;*/
+    text-align:center;
+    line-height: 30px;
+    color:red;
+    font-size:18px;
+    position: absolute;
+    top:30px;
+    left:0;
+}
+#m_show .left img{
+    width:34px;
+    height:53px;
+    /*background: black;*/
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:70px;
+}
+#m_show .left .cc_content{
+    width:234px;
+    height:30px;
+    /*background: yellow;*/
+    text-align:center;
+    line-height: 30px;
+    color: rgba(0,0,0,0.54);
+    font-size:14px;
+    position: absolute;
+    top:130px;
+    left:0;
+}
+#m_show .left .cc_footer{
+    width:180px;
+    height:50px;
+    /*background: yellow;*/
+    margin:0 auto;
+    position: absolute;
+    top:180px;
+    left:50%;
+    transform: translateX(-50%);
+}
+#m_show .left .cc_footer div{
+    width:53px;
+    height:50px;
+    background: rgb(96,87,81);
+    margin-right:10px;
+    float:left;
+    text-align:center;
+    line-height: 50px;
+    font-size:22px;
+    color:white;
+    font-weight:600;
+}
+
 #m_show .mmdd_box{
     width: 980px;
     height: 250px;

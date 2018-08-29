@@ -23,8 +23,5 @@ $(function(){
     //    $('#m_show .mmdd_box ul').eq(index).hide().siblings('ul').show();
     //
     //});
-
-
-
-
 });
+

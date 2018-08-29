@@ -1,0 +1,199 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+/*顶部开始*/
+.header{
+    width:100%;
+    height:100px;
+    /*background: pink;*/
+}
+.header .m_content{
+    width:1226px;
+    height:100px;
+    /*background: yellow;*/
+    margin:0 auto;
+    position: relative;
+}
+.header .m_content .m_a{
+    display:block;
+    width:55px;
+    height:55px;
+    background: orangered url(../images/mi-logo.png) no-repeat center center;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+}
+.header .m_content .mm_a{
+    display:block;
+    width:150px;
+    height:100px;
+    /*background: black;*/
+    position: absolute;
+    left:80px;
+    /*line-height: 100px;*/
+    text-align:center;
+    font-size:26px;
+    color: black;
+    padding-top:17px;
+    box-sizing: border-box;
+}
+    /*顶部结束*/
+#box{
+    width:100%;
+    height:518px;
+    /*background: pink;*/
+    /*margin-top:100px;*/
+    position: relative;
+}
+#box img{
+    width:100%;
+    height:518px;
+}
+#box .login{
+    width:400px;
+    height:450px;
+    background: white;
+    position: absolute;
+    left:85px;
+    top:50%;
+    transform: translateY(-50%);
+}
+#box .login .top{
+    width:400px;
+    height:80px;
+    /*background: yellow;*/
+}
+#box .login .top a{
+    display:block;
+    width:200px;
+    height:80px;
+    /*background: blue;*/
+    line-height: 80px;
+    text-align:center;
+    font-size:24px;
+    font-family: arial,"Hiragino Sans GB","Microsoft YaHei","微軟正黑體","儷黑 Pro",sans-serif;
+
+}
+#box .login .top .top_left{
+    float:left;
+    /*border-right:2px solid red;*/
+    color:#f56600;
+    /*box-sizing: border-box;*/
+}
+#box .login .top .top_right{
+    float:right;
+    color:black;
+}
+#box .login .content{
+    width:400px;
+    height:300px;
+}
+#box .login .content form{
+    width:340px;
+    height:230px;
+}
+#box .login .content input{
+    width:340px;
+    height:45px;
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+
+    border:none;
+    outline: 0;
+    border:1px solid grey;
+    padding-left:10px;
+    box-sizing: border-box;
+}
+#box .login .content .m_input1{
+    top:80px;
+}
+#box .login .content .m_input2{
+    top:140px;
+}
+#box .login .content .m_input3{
+    border: none;
+    padding:0;
+    top:220px;
+    background: orangered;
+    color:white;
+    cursor: pointer;
+}
+#box .login .content .mm_know{
+    width:340px;
+    height:30px;
+    /*background: yellow;*/
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:280px;
+}
+#box .login .content .mm_know .m_left{
+    float:left;
+    display:block;
+    width:150px;
+    height:30px;
+    font-size:14px;
+    color:red;
+
+}
+#box .login .content .mm_know .p_right{
+    float:right;
+    width:150px;
+    height:30px;
+    font-size:14px;
+
+}
+#box .login .content .mm_know .p_right a{
+    color:#999;
+    margin-right:3px;
+}
+fieldset, img {
+    border: 0;
+}
+.m_set {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+    padding-bottom: 10px\9;
+}
+.mm_set {
+    font-size: 14px;
+    color: #b0b0b0;
+    margin: 0 auto;
+    text-align: center;
+    width: 100% \9;
+}
+#box .login .footer{
+    width:300px;
+    height:30px;
+    /*background: pink;*/
+    margin:0 auto;
+}
+#box .login .footer a{
+    display:block;
+    width:75px;
+    height:30px;
+    /*background: yellow;*/
+    float:left;
+}
+#box .login .footer a i{
+    font-size:25px;
+}
+/*尾部开始*/
+.m_footer{
+    width:1226px;
+    height:40px;
+    /*background: pink;*/
+    margin:0 auto;
+    text-align:center;
+    line-height: 40px;
+    color:grey;
+    font-size:16px;
+    font-family: '仿宋';
+    font-weight:700;
+}
+/*尾部结束*/
