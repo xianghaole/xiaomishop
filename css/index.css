@@ -1265,6 +1265,9 @@ a{
     /*background: blue;*/
     float:left;
 }
+.m_end .md_center .md_center_left a:hover{
+    color:orangered;
+}
 .m_end .md_center .md_center_right{
     width:245px;
     height:200px;
